@@ -1,0 +1,388 @@
+/* .animate-grow {
+  margin: 50px;
+  width: 200px;
+	height: 72px;
+	line-height: 72px;
+	background: #E41931;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 22px;
+	padding: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	animation: animate_grow 2s infinite;
+}
+.animate-grow:hover {
+	animation: none;
+}
+ 
+@keyframes animate_grow {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+	50% {
+		transform: scale3d(1.05, 1.05, 1.05);
+	}
+  75% {
+    background: yellow;
+  }
+  90% {
+    color: black;
+  }
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+} */
+.brex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+}
+.brex-nav ul{
+    display: flex;
+}
+.brex-nav ul li{
+    list-style: none;
+}
+.brex-nav ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.28px;
+    color: #212121;
+    margin-right: 38px;
+}
+.brex-account{
+    border: none;
+    background: rgba(255, 0, 0, 0);
+    color: #212121;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 38px;
+}
+.brex-sign{
+    border: none;
+    background: rgba(255, 0, 0, 0);
+    color: #212121;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 38px;
+}
+.brex-contact{
+    background: #F46A35;
+    border-radius: 10px;
+    padding: 8px 26px;
+    color: white;
+    border: none;
+}
+.herosection {
+	display: flex;
+	width: 100%;
+}
+.herosection-left {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.herosection-left h1 {
+	text-align: center;
+	font-size: 40px;
+}
+.btn-account {
+	background: #bbf43500;
+	width: 160px;
+	height: 48px;
+	border: 1px solid rgb(204, 204, 204);
+	border-radius: 10px;
+} 
+.btn-contact {
+	background: #F46A35;
+	width: 160px;
+	height: 48px;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	margin-bottom: 60px;
+}
+.herosection-right {
+	width: 50%;
+}
+.herosection-right img {
+	width: 100%;
+}
+
+.herosection-card {
+	margin: 10px 50px ;
+	border-bottom: 1px solid rgb(204, 204, 204);
+
+	border-top: 1px solid rgb(204, 204, 204);
+	text-align: center;
+}
+.herosection-card h6 {
+	font-size: 16px;
+	margin: 20px 0;
+}
+.herosection-card p {
+	font-size: 14px;
+}
+.herosection-card button {
+	border: none;
+	color: #F46A35;
+	background: #00000000;
+	font-size: 16px;
+	padding: 0;
+	margin: 20px 0;
+}
+.herosection-footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 80px;
+	margin-bottom: 48px;
+}
+
+.solutions h2{
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 52px;
+	text-align: center;
+	color: #212121;
+}
+.solutions p{
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 32px;	
+	text-align: center;
+	letter-spacing: 0.4px;
+	color: #212121;
+}
+.brexfor{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.brexfor-left{
+	background-image: url("../img/brexfor.bg1.png");
+	background-size: cover;
+	width: 50%;
+	min-height: 401px;
+}
+.brexfor-right{
+	background-image: url("../img/brexfor.bg2.png");
+	background-size: cover;
+	width: 50%;
+	min-height: 401px;
+}
+.brexfor-right img{
+	width: 100%;
+}
+.brexfor-left img{
+	width: 100%;
+}
+.brexfor-left h2{
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 40px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.brexfor-left p{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.brexfor-right h2{
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 40px;
+	text-align: center;
+	color: #000000;
+}
+.brexfor-right p{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #000000;
+}
+.brexfor-learn{
+	padding: 13px 41px;
+	border: 1px solid white;
+	background: #21212100;
+	font-size: 14px;
+    line-height: 22px;
+	color: white;
+	border-radius: 10px;
+	margin: 0px 39%;
+}
+.brexfor-learn:hover{
+	background: #F46A35;
+	transition: 2s;
+}
+.flexbile{
+	margin-left:5%;
+}
+.flexbile h2{
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 52px;
+	letter-spacing: 1.6px;
+	color: #212121;
+}
+.flexbile p{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 32px;
+	color: #212121;
+}
+.flexbile-button{
+	padding: 12px 21px;
+	background: rgba(255, 0, 0, 0);
+	border-radius: 10px;
+	border: 1px solid #212121;
+}
+.card-img{
+	display: flex;
+	justify-content: center;
+	margin: 5%;
+}
+.card-img img{
+	width: 100%;
+}
+.doordash{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.doordash-center-text{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 0.32px;
+	color: #212121;
+}
+.doordash-center p{
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 44px;
+	text-align: center;
+	color: #212121;
+}
+.doordash-center img{
+	margin-left: 30%;
+}
+.scale{
+	max-width: 100%;
+}
+.scale-card p{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	color: #212121;
+}
+.scale-card button{
+	background: rgba(255, 255, 255, 0);
+	border: none;
+	color: orange;
+}
+.scale-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	justify-content: center;
+}
+section h2{
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 52px;
+	text-align: center;
+	letter-spacing: 1.6px;
+	color: #212121;
+}
+.forbes{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 5%;
+}
+.forbes img{
+	width: 100px;
+	height: 100px;
+}
+.see{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.see-left{
+	width: 48%;
+	margin-left: 2%;
+}
+.see-left h2{
+	font-weight: 400;
+	font-size: 40px;
+	letter-spacing: 1.6px;
+	color: #212121;
+	text-align: start;
+}
+.see-left p{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 32px;
+	color: #212121;
+	text-align: start;
+}
+.see-right{
+	width: 50%;
+}
+.brex-footer-text{
+	display: flex;
+	justify-content: space-around;
+}
+footer{
+	background: #000000;
+}
+.brex-footer-text p{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	color: #BCBDBD;
+}
+.brex-footer-title{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+.brex-footer-text{
+	width: 50%;
+	margin-left: 20%;
+}
+.appstore{
+	display: flex;
+	justify-content: center;
+	gap: 19px;
+}
+.appstore img{
+	width: 100px;
+}
+
+.brex-footer-info{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.brex-footer-info p{
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: #BCBDBD;
+	text-align: start;
+}
